@@ -115,7 +115,10 @@ A Netflix-inspired movie web app where users can browse and watch movies. Admin 
 - `POST /api/movies/`
 - `PUT /api/movies/:id`
 - `DELETE /api/movies/:id`
-- `POST /api/lists/step/add`
+- `GET /api/lists/`
+- `POST /api/lists/`
+- `PUT /api/lists/:id`
+- `DELETE /api/lists/:id`
 
 
 ### POST /api/auth/register
