@@ -54,6 +54,13 @@ A Netflix-inspired movie web app where users can browse and watch movies. Admin 
 * [Crypto-js](https://www.npmjs.com/package/crypto-js)
 * [JSON Web Token](https://www.npmjs.com/package/jsonwebtoken)
 * [CORS](https://www.npmjs.com/package/cors)
+* [Firebase Storage](https://firebase.google.com/)
+
+#### Front-end Tech Stacks:
+* [React.js](https://nodejs.org/)
+* [Material UI](https://mui.com/)
+* [SASS](https://sass-lang.com/)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -66,6 +73,7 @@ A Netflix-inspired movie web app where users can browse and watch movies. Admin 
 
 * Node.js installed
 * MongoDB Atlas account
+* Google Firebase account
 * API testing tool (Postman, Insomnia, etc)
 
 
@@ -76,7 +84,7 @@ A Netflix-inspired movie web app where users can browse and watch movies. Admin 
    git clone https://github.com/AnthonyGunardi/flashcoffee.git
    ```
 2. Install NPM packages
-   Open terminal from your cloned api folder, and type:
+   Open terminal from each of these folders: api, admin, client, and type:
    ```sh
    npm install
    ```
@@ -95,6 +103,23 @@ A Netflix-inspired movie web app where users can browse and watch movies. Admin 
    npm run dev
    ```
 3. Test the API endpoints using API testing tool (Postman, Insomnia, etc)
+
+
+### Admin
+
+1. Create a firebase storage project and paste your config files into admin/src/firebase.js
+2. Run the application
+   ```sh
+   npm start
+   ```
+
+
+### Client
+
+1. Run the application
+   ```sh
+   npm start
+   ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
